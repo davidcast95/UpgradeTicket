@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<model userDefinedModelVersionIdentifier="" type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="10174" systemVersion="16A313a" minimumToolsVersion="Automatic">
+    <entity name="Airlines" syncable="YES">
+        <attribute name="airline" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="id" optional="YES" attributeType="Integer 64" defaultValueString="0" syncable="YES"/>
+        <attribute name="image" optional="YES" attributeType="Transformable" syncable="YES"/>
+    </entity>
+    <entity name="Destinations" syncable="YES">
+        <attribute name="airport" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="alias" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="city" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="id" optional="YES" attributeType="Integer 64" defaultValueString="0" syncable="YES"/>
+        <attribute name="image" optional="YES" attributeType="Transformable" syncable="YES"/>
+    </entity>
+    <elements>
+        <element name="Airlines" positionX="-36" positionY="36" width="128" height="90"/>
+        <element name="Destinations" positionX="-414" positionY="242" width="117" height="120"/>
+    </elements>
+</model>

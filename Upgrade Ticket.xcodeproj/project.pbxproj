@@ -1,0 +1,743 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		51044EE21D0454E200B3D0B5 /* OriginFlightViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51044EE11D0454E200B3D0B5 /* OriginFlightViewController.swift */; };
+		51044EE41D0459D900B3D0B5 /* DestFlightViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51044EE31D0459D900B3D0B5 /* DestFlightViewController.swift */; };
+		510EE6601D46903000814117 /* LoadingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 510EE65F1D46903000814117 /* LoadingViewController.swift */; };
+		5117A0D11D86913D00CBB5A3 /* ThankYouViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5117A0D01D86913D00CBB5A3 /* ThankYouViewController.swift */; };
+		51211CF61D273121007CD268 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51211CF51D273121007CD268 /* HomeViewController.swift */; };
+		51211CF81D273773007CD268 /* TestViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51211CF71D273773007CD268 /* TestViewController.swift */; };
+		51211CFA1D273AFE007CD268 /* CityTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51211CF91D273AFE007CD268 /* CityTableViewCell.swift */; };
+		51327FFD1D0CF95600A61D31 /* Mask.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51327FFC1D0CF95600A61D31 /* Mask.swift */; };
+		513280011D0EFFC000A61D31 /* SettingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 513280001D0EFFC000A61D31 /* SettingViewController.swift */; };
+		513280031D0F04EB00A61D31 /* ProfileTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 513280021D0F04EB00A61D31 /* ProfileTableViewController.swift */; };
+		513ACAAE1CFA7804004C09D4 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 513ACAAD1CFA7804004C09D4 /* LoginViewController.swift */; };
+		513ACAB01CFA904D004C09D4 /* PaymentViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 513ACAAF1CFA904D004C09D4 /* PaymentViewController.swift */; };
+		51447BD51D6E633000DA3D9D /* DetailReservationTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51447BD41D6E633000DA3D9D /* DetailReservationTableViewController.swift */; };
+		51447BE81D6FE4BE00DA3D9D /* DetailTransactionTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51447BE71D6FE4BE00DA3D9D /* DetailTransactionTableViewCell.swift */; };
+		514FE6631D5E3877009DB446 /* ContentViewViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 514FE6621D5E3877009DB446 /* ContentViewViewController.swift */; };
+		515198551D5CDB620018CD36 /* HistoryTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 515198541D5CDB620018CD36 /* HistoryTableViewCell.swift */; };
+		51546FF51D374771003C437D /* ConfirmationEmailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51546FF41D374771003C437D /* ConfirmationEmailViewController.swift */; };
+		51546FF91D391D54003C437D /* FlightResultViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51546FF81D391D54003C437D /* FlightResultViewController.swift */; };
+		5155CFF91D6755600057CA2C /* RoundTripTicketTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5155CFF81D6755600057CA2C /* RoundTripTicketTableViewCell.swift */; };
+		5161AFEB1D6411FD0014F0A1 /* OneWayTicketTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5161AFEA1D6411FD0014F0A1 /* OneWayTicketTableViewCell.swift */; };
+		5166B07C1CDCD744007EBA38 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5166B07B1CDCD744007EBA38 /* AppDelegate.swift */; };
+		5166B0811CDCD744007EBA38 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5166B07F1CDCD744007EBA38 /* Main.storyboard */; };
+		5166B0841CDCD745007EBA38 /* Upgrade_Ticket.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 5166B0821CDCD745007EBA38 /* Upgrade_Ticket.xcdatamodeld */; };
+		5166B0861CDCD745007EBA38 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5166B0851CDCD745007EBA38 /* Assets.xcassets */; };
+		5166B0891CDCD745007EBA38 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5166B0871CDCD745007EBA38 /* LaunchScreen.storyboard */; };
+		5166B0941CDCD745007EBA38 /* Upgrade_TicketTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5166B0931CDCD745007EBA38 /* Upgrade_TicketTests.swift */; };
+		5166B09F1CDCD745007EBA38 /* Upgrade_TicketUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5166B09E1CDCD745007EBA38 /* Upgrade_TicketUITests.swift */; };
+		5166B0AD1CDCD8AB007EBA38 /* SearchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5166B0AC1CDCD8AB007EBA38 /* SearchViewController.swift */; };
+		5166B0AF1CDCDFCB007EBA38 /* SearchCityViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5166B0AE1CDCDFCB007EBA38 /* SearchCityViewController.swift */; };
+		5166B0B11CDCE224007EBA38 /* NavigationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5166B0B01CDCE224007EBA38 /* NavigationViewController.swift */; };
+		5166B0B61CDCEB83007EBA38 /* Utility.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5166B0B51CDCEB83007EBA38 /* Utility.swift */; };
+		5166B0B81CDCF446007EBA38 /* System.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5166B0B71CDCF446007EBA38 /* System.swift */; };
+		51821A4F1D734FB0007558B0 /* DetailButtonReservationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51821A4E1D734FB0007558B0 /* DetailButtonReservationViewController.swift */; };
+		51821A511D7370D1007558B0 /* ForgotPasswordViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51821A501D7370D1007558B0 /* ForgotPasswordViewController.swift */; };
+		5191B8211CE8E67F00C5B133 /* FlightViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5191B8201CE8E67F00C5B133 /* FlightViewController.swift */; };
+		51B86F7A1D7015C0000CCB28 /* DefaultUITextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51B86F791D7015C0000CCB28 /* DefaultUITextField.swift */; };
+		51B86F7D1D701A40000CCB28 /* DefaultUIButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51B86F7C1D701A40000CCB28 /* DefaultUIButton.swift */; };
+		51B86F7F1D70205A000CCB28 /* DefaultUISearchBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51B86F7E1D70205A000CCB28 /* DefaultUISearchBar.swift */; };
+		51BC1DF01D21A9460047B2D0 /* SignupViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51BC1DEF1D21A9460047B2D0 /* SignupViewController.swift */; };
+		51C3A9881CF9EDDF0029AC69 /* ProceedViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51C3A9871CF9EDDF0029AC69 /* ProceedViewController.swift */; };
+		51C3A98A1CF9F0550029AC69 /* PersonTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51C3A9891CF9F0550029AC69 /* PersonTableViewCell.swift */; };
+		51C3A98C1CFA0AF60029AC69 /* FlightTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51C3A98B1CFA0AF60029AC69 /* FlightTableViewCell.swift */; };
+		51DCACB01D8D3897007034C6 /* ConfirmationPhoneViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51DCACAF1D8D3897007034C6 /* ConfirmationPhoneViewController.swift */; };
+		51E0239B1D217D5800504850 /* ProfileAccountViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51E0239A1D217D5800504850 /* ProfileAccountViewController.swift */; };
+		51EC1BD51D98B464009CE372 /* PaymentMethodViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51EC1BD41D98B464009CE372 /* PaymentMethodViewController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		5166B0901CDCD745007EBA38 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5166B0701CDCD744007EBA38 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5166B0771CDCD744007EBA38;
+			remoteInfo = "Upgrade Ticket";
+		};
+		5166B09B1CDCD745007EBA38 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5166B0701CDCD744007EBA38 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5166B0771CDCD744007EBA38;
+			remoteInfo = "Upgrade Ticket";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		51044EE11D0454E200B3D0B5 /* OriginFlightViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OriginFlightViewController.swift; sourceTree = "<group>"; };
+		51044EE31D0459D900B3D0B5 /* DestFlightViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DestFlightViewController.swift; sourceTree = "<group>"; };
+		510EE65F1D46903000814117 /* LoadingViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoadingViewController.swift; sourceTree = "<group>"; };
+		5117A0D01D86913D00CBB5A3 /* ThankYouViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ThankYouViewController.swift; sourceTree = "<group>"; };
+		51211CF51D273121007CD268 /* HomeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		51211CF71D273773007CD268 /* TestViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TestViewController.swift; sourceTree = "<group>"; };
+		51211CF91D273AFE007CD268 /* CityTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CityTableViewCell.swift; sourceTree = "<group>"; };
+		5130D0D11D95750E00CFEFC3 /* Upgrade Ticket.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = "Upgrade Ticket.entitlements"; sourceTree = "<group>"; };
+		51327FFC1D0CF95600A61D31 /* Mask.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Mask.swift; sourceTree = "<group>"; };
+		513280001D0EFFC000A61D31 /* SettingViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SettingViewController.swift; sourceTree = "<group>"; };
+		513280021D0F04EB00A61D31 /* ProfileTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProfileTableViewController.swift; sourceTree = "<group>"; };
+		513ACAAD1CFA7804004C09D4 /* LoginViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		513ACAAF1CFA904D004C09D4 /* PaymentViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PaymentViewController.swift; sourceTree = "<group>"; };
+		51447BD41D6E633000DA3D9D /* DetailReservationTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DetailReservationTableViewController.swift; sourceTree = "<group>"; };
+		51447BE71D6FE4BE00DA3D9D /* DetailTransactionTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DetailTransactionTableViewCell.swift; sourceTree = "<group>"; };
+		514FE6621D5E3877009DB446 /* ContentViewViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ContentViewViewController.swift; sourceTree = "<group>"; };
+		515198541D5CDB620018CD36 /* HistoryTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HistoryTableViewCell.swift; sourceTree = "<group>"; };
+		51546FF41D374771003C437D /* ConfirmationEmailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ConfirmationEmailViewController.swift; sourceTree = "<group>"; };
+		51546FF81D391D54003C437D /* FlightResultViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FlightResultViewController.swift; sourceTree = "<group>"; };
+		5155CFF81D6755600057CA2C /* RoundTripTicketTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RoundTripTicketTableViewCell.swift; sourceTree = "<group>"; };
+		5161AFEA1D6411FD0014F0A1 /* OneWayTicketTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OneWayTicketTableViewCell.swift; sourceTree = "<group>"; };
+		5166B0781CDCD744007EBA38 /* Upgrade Ticket.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Upgrade Ticket.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		5166B07B1CDCD744007EBA38 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		5166B0801CDCD744007EBA38 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		5166B0831CDCD745007EBA38 /* Upgrade_Ticket.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Upgrade_Ticket.xcdatamodel; sourceTree = "<group>"; };
+		5166B0851CDCD745007EBA38 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		5166B0881CDCD745007EBA38 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		5166B08A1CDCD745007EBA38 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5166B08F1CDCD745007EBA38 /* Upgrade TicketTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Upgrade TicketTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		5166B0931CDCD745007EBA38 /* Upgrade_TicketTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Upgrade_TicketTests.swift; sourceTree = "<group>"; };
+		5166B0951CDCD745007EBA38 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5166B09A1CDCD745007EBA38 /* Upgrade TicketUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Upgrade TicketUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		5166B09E1CDCD745007EBA38 /* Upgrade_TicketUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Upgrade_TicketUITests.swift; sourceTree = "<group>"; };
+		5166B0A01CDCD745007EBA38 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5166B0AC1CDCD8AB007EBA38 /* SearchViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SearchViewController.swift; sourceTree = "<group>"; };
+		5166B0AE1CDCDFCB007EBA38 /* SearchCityViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SearchCityViewController.swift; sourceTree = "<group>"; };
+		5166B0B01CDCE224007EBA38 /* NavigationViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NavigationViewController.swift; sourceTree = "<group>"; };
+		5166B0B51CDCEB83007EBA38 /* Utility.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Utility.swift; sourceTree = "<group>"; };
+		5166B0B71CDCF446007EBA38 /* System.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = System.swift; sourceTree = "<group>"; };
+		51821A4E1D734FB0007558B0 /* DetailButtonReservationViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DetailButtonReservationViewController.swift; sourceTree = "<group>"; };
+		51821A501D7370D1007558B0 /* ForgotPasswordViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ForgotPasswordViewController.swift; sourceTree = "<group>"; };
+		5191B8201CE8E67F00C5B133 /* FlightViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FlightViewController.swift; sourceTree = "<group>"; };
+		51B86F791D7015C0000CCB28 /* DefaultUITextField.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DefaultUITextField.swift; sourceTree = "<group>"; };
+		51B86F7C1D701A40000CCB28 /* DefaultUIButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DefaultUIButton.swift; sourceTree = "<group>"; };
+		51B86F7E1D70205A000CCB28 /* DefaultUISearchBar.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DefaultUISearchBar.swift; sourceTree = "<group>"; };
+		51BC1DEF1D21A9460047B2D0 /* SignupViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SignupViewController.swift; sourceTree = "<group>"; };
+		51C3A9871CF9EDDF0029AC69 /* ProceedViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProceedViewController.swift; sourceTree = "<group>"; };
+		51C3A9891CF9F0550029AC69 /* PersonTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PersonTableViewCell.swift; sourceTree = "<group>"; };
+		51C3A98B1CFA0AF60029AC69 /* FlightTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FlightTableViewCell.swift; sourceTree = "<group>"; };
+		51DCACAF1D8D3897007034C6 /* ConfirmationPhoneViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ConfirmationPhoneViewController.swift; sourceTree = "<group>"; };
+		51E0239A1D217D5800504850 /* ProfileAccountViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProfileAccountViewController.swift; sourceTree = "<group>"; };
+		51EC1BD41D98B464009CE372 /* PaymentMethodViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PaymentMethodViewController.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		5166B0751CDCD744007EBA38 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5166B08C1CDCD745007EBA38 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5166B0971CDCD745007EBA38 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		51327FF81D0C1C9000A61D31 /* Scene */ = {
+			isa = PBXGroup;
+			children = (
+				51211CF71D273773007CD268 /* TestViewController.swift */,
+				51211CF51D273121007CD268 /* HomeViewController.swift */,
+				513280001D0EFFC000A61D31 /* SettingViewController.swift */,
+				5191B8201CE8E67F00C5B133 /* FlightViewController.swift */,
+				51546FF81D391D54003C437D /* FlightResultViewController.swift */,
+				51044EE11D0454E200B3D0B5 /* OriginFlightViewController.swift */,
+				51044EE31D0459D900B3D0B5 /* DestFlightViewController.swift */,
+				513ACAAD1CFA7804004C09D4 /* LoginViewController.swift */,
+				51BC1DEF1D21A9460047B2D0 /* SignupViewController.swift */,
+				51DCACAF1D8D3897007034C6 /* ConfirmationPhoneViewController.swift */,
+				51546FF41D374771003C437D /* ConfirmationEmailViewController.swift */,
+				51C3A9871CF9EDDF0029AC69 /* ProceedViewController.swift */,
+				51E0239A1D217D5800504850 /* ProfileAccountViewController.swift */,
+				513280021D0F04EB00A61D31 /* ProfileTableViewController.swift */,
+				5166B0B01CDCE224007EBA38 /* NavigationViewController.swift */,
+				5166B0AC1CDCD8AB007EBA38 /* SearchViewController.swift */,
+				5166B0AE1CDCDFCB007EBA38 /* SearchCityViewController.swift */,
+				513ACAAF1CFA904D004C09D4 /* PaymentViewController.swift */,
+				514FE6621D5E3877009DB446 /* ContentViewViewController.swift */,
+				51447BD41D6E633000DA3D9D /* DetailReservationTableViewController.swift */,
+				51821A4E1D734FB0007558B0 /* DetailButtonReservationViewController.swift */,
+				51821A501D7370D1007558B0 /* ForgotPasswordViewController.swift */,
+				5117A0D01D86913D00CBB5A3 /* ThankYouViewController.swift */,
+				51EC1BD41D98B464009CE372 /* PaymentMethodViewController.swift */,
+			);
+			name = Scene;
+			sourceTree = "<group>";
+		};
+		51327FF91D0C1C9600A61D31 /* Component */ = {
+			isa = PBXGroup;
+			children = (
+				510EE65F1D46903000814117 /* LoadingViewController.swift */,
+				51211CF91D273AFE007CD268 /* CityTableViewCell.swift */,
+				51C3A98B1CFA0AF60029AC69 /* FlightTableViewCell.swift */,
+				51C3A9891CF9F0550029AC69 /* PersonTableViewCell.swift */,
+				51327FFC1D0CF95600A61D31 /* Mask.swift */,
+				515198541D5CDB620018CD36 /* HistoryTableViewCell.swift */,
+				5161AFEA1D6411FD0014F0A1 /* OneWayTicketTableViewCell.swift */,
+				5155CFF81D6755600057CA2C /* RoundTripTicketTableViewCell.swift */,
+				51447BE71D6FE4BE00DA3D9D /* DetailTransactionTableViewCell.swift */,
+			);
+			name = Component;
+			sourceTree = "<group>";
+		};
+		5166B06F1CDCD744007EBA38 = {
+			isa = PBXGroup;
+			children = (
+				5166B07A1CDCD744007EBA38 /* Upgrade Ticket */,
+				5166B0921CDCD745007EBA38 /* Upgrade TicketTests */,
+				5166B09D1CDCD745007EBA38 /* Upgrade TicketUITests */,
+				5166B0791CDCD744007EBA38 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		5166B0791CDCD744007EBA38 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5166B0781CDCD744007EBA38 /* Upgrade Ticket.app */,
+				5166B08F1CDCD745007EBA38 /* Upgrade TicketTests.xctest */,
+				5166B09A1CDCD745007EBA38 /* Upgrade TicketUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		5166B07A1CDCD744007EBA38 /* Upgrade Ticket */ = {
+			isa = PBXGroup;
+			children = (
+				5130D0D11D95750E00CFEFC3 /* Upgrade Ticket.entitlements */,
+				51B86F7B1D7015C9000CCB28 /* Properties */,
+				5166B07B1CDCD744007EBA38 /* AppDelegate.swift */,
+				5166B07F1CDCD744007EBA38 /* Main.storyboard */,
+				51327FF91D0C1C9600A61D31 /* Component */,
+				5166B0B91CDCF478007EBA38 /* System */,
+				5166B0851CDCD745007EBA38 /* Assets.xcassets */,
+				5166B0871CDCD745007EBA38 /* LaunchScreen.storyboard */,
+				5166B08A1CDCD745007EBA38 /* Info.plist */,
+				5166B0821CDCD745007EBA38 /* Upgrade_Ticket.xcdatamodeld */,
+				51327FF81D0C1C9000A61D31 /* Scene */,
+			);
+			path = "Upgrade Ticket";
+			sourceTree = "<group>";
+		};
+		5166B0921CDCD745007EBA38 /* Upgrade TicketTests */ = {
+			isa = PBXGroup;
+			children = (
+				5166B0931CDCD745007EBA38 /* Upgrade_TicketTests.swift */,
+				5166B0951CDCD745007EBA38 /* Info.plist */,
+			);
+			path = "Upgrade TicketTests";
+			sourceTree = "<group>";
+		};
+		5166B09D1CDCD745007EBA38 /* Upgrade TicketUITests */ = {
+			isa = PBXGroup;
+			children = (
+				5166B09E1CDCD745007EBA38 /* Upgrade_TicketUITests.swift */,
+				5166B0A01CDCD745007EBA38 /* Info.plist */,
+			);
+			path = "Upgrade TicketUITests";
+			sourceTree = "<group>";
+		};
+		5166B0B91CDCF478007EBA38 /* System */ = {
+			isa = PBXGroup;
+			children = (
+				5166B0B51CDCEB83007EBA38 /* Utility.swift */,
+				5166B0B71CDCF446007EBA38 /* System.swift */,
+			);
+			name = System;
+			sourceTree = "<group>";
+		};
+		51B86F7B1D7015C9000CCB28 /* Properties */ = {
+			isa = PBXGroup;
+			children = (
+				51B86F791D7015C0000CCB28 /* DefaultUITextField.swift */,
+				51B86F7C1D701A40000CCB28 /* DefaultUIButton.swift */,
+				51B86F7E1D70205A000CCB28 /* DefaultUISearchBar.swift */,
+			);
+			name = Properties;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		5166B0771CDCD744007EBA38 /* Upgrade Ticket */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5166B0A31CDCD745007EBA38 /* Build configuration list for PBXNativeTarget "Upgrade Ticket" */;
+			buildPhases = (
+				5166B0741CDCD744007EBA38 /* Sources */,
+				5166B0751CDCD744007EBA38 /* Frameworks */,
+				5166B0761CDCD744007EBA38 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Upgrade Ticket";
+			productName = "Upgrade Ticket";
+			productReference = 5166B0781CDCD744007EBA38 /* Upgrade Ticket.app */;
+			productType = "com.apple.product-type.application";
+		};
+		5166B08E1CDCD745007EBA38 /* Upgrade TicketTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5166B0A61CDCD745007EBA38 /* Build configuration list for PBXNativeTarget "Upgrade TicketTests" */;
+			buildPhases = (
+				5166B08B1CDCD745007EBA38 /* Sources */,
+				5166B08C1CDCD745007EBA38 /* Frameworks */,
+				5166B08D1CDCD745007EBA38 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5166B0911CDCD745007EBA38 /* PBXTargetDependency */,
+			);
+			name = "Upgrade TicketTests";
+			productName = "Upgrade TicketTests";
+			productReference = 5166B08F1CDCD745007EBA38 /* Upgrade TicketTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		5166B0991CDCD745007EBA38 /* Upgrade TicketUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5166B0A91CDCD745007EBA38 /* Build configuration list for PBXNativeTarget "Upgrade TicketUITests" */;
+			buildPhases = (
+				5166B0961CDCD745007EBA38 /* Sources */,
+				5166B0971CDCD745007EBA38 /* Frameworks */,
+				5166B0981CDCD745007EBA38 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5166B09C1CDCD745007EBA38 /* PBXTargetDependency */,
+			);
+			name = "Upgrade TicketUITests";
+			productName = "Upgrade TicketUITests";
+			productReference = 5166B09A1CDCD745007EBA38 /* Upgrade TicketUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		5166B0701CDCD744007EBA38 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0710;
+				LastUpgradeCheck = 0800;
+				ORGANIZATIONNAME = "David Wibisono";
+				TargetAttributes = {
+					5166B0771CDCD744007EBA38 = {
+						CreatedOnToolsVersion = 7.1.1;
+						DevelopmentTeam = YTFM8NUTZ8;
+						LastSwiftMigration = 0800;
+						SystemCapabilities = {
+							com.apple.Push = {
+								enabled = 1;
+							};
+						};
+					};
+					5166B08E1CDCD745007EBA38 = {
+						CreatedOnToolsVersion = 7.1.1;
+						DevelopmentTeam = 57VL32B9VS;
+						LastSwiftMigration = 0800;
+						TestTargetID = 5166B0771CDCD744007EBA38;
+					};
+					5166B0991CDCD745007EBA38 = {
+						CreatedOnToolsVersion = 7.1.1;
+						DevelopmentTeam = 57VL32B9VS;
+						LastSwiftMigration = 0800;
+						TestTargetID = 5166B0771CDCD744007EBA38;
+					};
+				};
+			};
+			buildConfigurationList = 5166B0731CDCD744007EBA38 /* Build configuration list for PBXProject "Upgrade Ticket" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 5166B06F1CDCD744007EBA38;
+			productRefGroup = 5166B0791CDCD744007EBA38 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				5166B0771CDCD744007EBA38 /* Upgrade Ticket */,
+				5166B08E1CDCD745007EBA38 /* Upgrade TicketTests */,
+				5166B0991CDCD745007EBA38 /* Upgrade TicketUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		5166B0761CDCD744007EBA38 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5166B0891CDCD745007EBA38 /* LaunchScreen.storyboard in Resources */,
+				5166B0861CDCD745007EBA38 /* Assets.xcassets in Resources */,
+				5166B0811CDCD744007EBA38 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5166B08D1CDCD745007EBA38 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5166B0981CDCD745007EBA38 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		5166B0741CDCD744007EBA38 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				513280031D0F04EB00A61D31 /* ProfileTableViewController.swift in Sources */,
+				51DCACB01D8D3897007034C6 /* ConfirmationPhoneViewController.swift in Sources */,
+				51044EE21D0454E200B3D0B5 /* OriginFlightViewController.swift in Sources */,
+				51B86F7A1D7015C0000CCB28 /* DefaultUITextField.swift in Sources */,
+				51211CF81D273773007CD268 /* TestViewController.swift in Sources */,
+				514FE6631D5E3877009DB446 /* ContentViewViewController.swift in Sources */,
+				51447BD51D6E633000DA3D9D /* DetailReservationTableViewController.swift in Sources */,
+				51BC1DF01D21A9460047B2D0 /* SignupViewController.swift in Sources */,
+				5117A0D11D86913D00CBB5A3 /* ThankYouViewController.swift in Sources */,
+				51821A511D7370D1007558B0 /* ForgotPasswordViewController.swift in Sources */,
+				51327FFD1D0CF95600A61D31 /* Mask.swift in Sources */,
+				513ACAAE1CFA7804004C09D4 /* LoginViewController.swift in Sources */,
+				51211CF61D273121007CD268 /* HomeViewController.swift in Sources */,
+				513ACAB01CFA904D004C09D4 /* PaymentViewController.swift in Sources */,
+				51B86F7D1D701A40000CCB28 /* DefaultUIButton.swift in Sources */,
+				51546FF51D374771003C437D /* ConfirmationEmailViewController.swift in Sources */,
+				51447BE81D6FE4BE00DA3D9D /* DetailTransactionTableViewCell.swift in Sources */,
+				51C3A98C1CFA0AF60029AC69 /* FlightTableViewCell.swift in Sources */,
+				51B86F7F1D70205A000CCB28 /* DefaultUISearchBar.swift in Sources */,
+				513280011D0EFFC000A61D31 /* SettingViewController.swift in Sources */,
+				5166B0B61CDCEB83007EBA38 /* Utility.swift in Sources */,
+				5155CFF91D6755600057CA2C /* RoundTripTicketTableViewCell.swift in Sources */,
+				51211CFA1D273AFE007CD268 /* CityTableViewCell.swift in Sources */,
+				51546FF91D391D54003C437D /* FlightResultViewController.swift in Sources */,
+				5166B0AD1CDCD8AB007EBA38 /* SearchViewController.swift in Sources */,
+				5191B8211CE8E67F00C5B133 /* FlightViewController.swift in Sources */,
+				51044EE41D0459D900B3D0B5 /* DestFlightViewController.swift in Sources */,
+				5166B07C1CDCD744007EBA38 /* AppDelegate.swift in Sources */,
+				515198551D5CDB620018CD36 /* HistoryTableViewCell.swift in Sources */,
+				51C3A9881CF9EDDF0029AC69 /* ProceedViewController.swift in Sources */,
+				5166B0B81CDCF446007EBA38 /* System.swift in Sources */,
+				5166B0841CDCD745007EBA38 /* Upgrade_Ticket.xcdatamodeld in Sources */,
+				51E0239B1D217D5800504850 /* ProfileAccountViewController.swift in Sources */,
+				510EE6601D46903000814117 /* LoadingViewController.swift in Sources */,
+				5166B0B11CDCE224007EBA38 /* NavigationViewController.swift in Sources */,
+				51C3A98A1CF9F0550029AC69 /* PersonTableViewCell.swift in Sources */,
+				5161AFEB1D6411FD0014F0A1 /* OneWayTicketTableViewCell.swift in Sources */,
+				51821A4F1D734FB0007558B0 /* DetailButtonReservationViewController.swift in Sources */,
+				51EC1BD51D98B464009CE372 /* PaymentMethodViewController.swift in Sources */,
+				5166B0AF1CDCDFCB007EBA38 /* SearchCityViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5166B08B1CDCD745007EBA38 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5166B0941CDCD745007EBA38 /* Upgrade_TicketTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5166B0961CDCD745007EBA38 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5166B09F1CDCD745007EBA38 /* Upgrade_TicketUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		5166B0911CDCD745007EBA38 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5166B0771CDCD744007EBA38 /* Upgrade Ticket */;
+			targetProxy = 5166B0901CDCD745007EBA38 /* PBXContainerItemProxy */;
+		};
+		5166B09C1CDCD745007EBA38 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5166B0771CDCD744007EBA38 /* Upgrade Ticket */;
+			targetProxy = 5166B09B1CDCD745007EBA38 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		5166B07F1CDCD744007EBA38 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5166B0801CDCD744007EBA38 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		5166B0871CDCD745007EBA38 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5166B0881CDCD745007EBA38 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		5166B0A11CDCD745007EBA38 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		5166B0A21CDCD745007EBA38 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		5166B0A41CDCD745007EBA38 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = "Upgrade Ticket/Upgrade Ticket.entitlements";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				INFOPLIST_FILE = "Upgrade Ticket/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.davidcast.Upgrade-Ticket";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		5166B0A51CDCD745007EBA38 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = "Upgrade Ticket/Upgrade Ticket.entitlements";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				INFOPLIST_FILE = "Upgrade Ticket/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.davidcast.Upgrade-Ticket";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+		5166B0A71CDCD745007EBA38 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "Upgrade TicketTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.davidcast.Upgrade-TicketTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Upgrade Ticket.app/Upgrade Ticket";
+			};
+			name = Debug;
+		};
+		5166B0A81CDCD745007EBA38 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "Upgrade TicketTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.davidcast.Upgrade-TicketTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Upgrade Ticket.app/Upgrade Ticket";
+			};
+			name = Release;
+		};
+		5166B0AA1CDCD745007EBA38 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "Upgrade TicketUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.davidcast.Upgrade-TicketUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = "Upgrade Ticket";
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		5166B0AB1CDCD745007EBA38 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "Upgrade TicketUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.davidcast.Upgrade-TicketUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = "Upgrade Ticket";
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		5166B0731CDCD744007EBA38 /* Build configuration list for PBXProject "Upgrade Ticket" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5166B0A11CDCD745007EBA38 /* Debug */,
+				5166B0A21CDCD745007EBA38 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5166B0A31CDCD745007EBA38 /* Build configuration list for PBXNativeTarget "Upgrade Ticket" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5166B0A41CDCD745007EBA38 /* Debug */,
+				5166B0A51CDCD745007EBA38 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5166B0A61CDCD745007EBA38 /* Build configuration list for PBXNativeTarget "Upgrade TicketTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5166B0A71CDCD745007EBA38 /* Debug */,
+				5166B0A81CDCD745007EBA38 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5166B0A91CDCD745007EBA38 /* Build configuration list for PBXNativeTarget "Upgrade TicketUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5166B0AA1CDCD745007EBA38 /* Debug */,
+				5166B0AB1CDCD745007EBA38 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		5166B0821CDCD745007EBA38 /* Upgrade_Ticket.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				5166B0831CDCD745007EBA38 /* Upgrade_Ticket.xcdatamodel */,
+			);
+			currentVersion = 5166B0831CDCD745007EBA38 /* Upgrade_Ticket.xcdatamodel */;
+			path = Upgrade_Ticket.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 5166B0701CDCD744007EBA38 /* Project object */;
+}
